@@ -80,7 +80,7 @@ func (t *SimpleChaincode) Query(stub shim.ChaincodeStubInterface, function strin
 	
 	fmt.Println("query did not find func: " + function)						//error
     
-	msg := "Received unknown function query: " + function
+	msg := "Received unknown function query2: " + function
 	return nil, errors.New(msg)
 }
 
